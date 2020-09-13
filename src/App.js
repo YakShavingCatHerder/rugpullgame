@@ -24,7 +24,7 @@ class App extends Component {
             defaultGasPrice: null,
             defaultGasLimit: 200000
         };
-        this.state.tzAddress = contract.address; // 0xA4d80eB67cFDa1267487c0458F1cd1Cd21654D81
+        this.state.tzAddress = contract.address; // 0x05dae56dF5d37c6BB94FecdB56dd7176Eb8D7FFF
     }
 
     setNetwork = () => {

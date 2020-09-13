@@ -1,8 +1,8 @@
 const contract = {
-    address: "0xA4d80eB67cFDa1267487c0458F1cd1Cd21654D81",
+    address: "0x05dae56dF5d37c6BB94FecdB56dd7176Eb8D7FFF",
     decimal: 18,
-    name: "rugpullgame.eth.link(RPG_real)",
-    symbol: "RPG_Real",
+    name: "RugPullGame",
+    symbol: "RPG",
     icon: "",
     abi: [{
         "inputs": [{
@@ -62,7 +62,7 @@ const contract = {
         "type": "event"
     }, {
         "inputs": [],
-        "name": "ChangeToRug",
+        "name": "ChanceToRug",
         "outputs": [{
             "internalType": "bool",
             "name": "",
