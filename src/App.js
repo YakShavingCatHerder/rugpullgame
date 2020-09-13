@@ -103,9 +103,9 @@ class App extends Component {
 
     playRPG = async () => {
         let contractweb3 = new window.web3.eth.Contract(contract.abi, contract.address);
-        let transObj = { from: this.state.account };
+        let transObj = { from: this.state.account, gas: this.state.defaultGasLimit };
         let app = this;
-        contractweb3.methods.ChangeToRug().send(transObj)
+        contractweb3.methods.ChanceToRug().send(transObj)
             .then((response, err) => {
                 if (response) {
                     app.resetApp();

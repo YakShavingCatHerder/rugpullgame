@@ -14,13 +14,6 @@ class addressBar extends Component {
                     {this.props.totalsupply}
                 </p>
                 <a href="/" className="button is-success" onClick={this.props.playrpg}>PLAY (1 RPG Burn)</a>
-
-            <div className="panel-heading has-text-centered is-clipped is-size-6 code">
-                    CODE:<br />
-                    <div>
-                        <img src={require('./chancetorug.png')} alt="picturehere" />
-                    </div>
-                </div>
         </div>
         )
     }
