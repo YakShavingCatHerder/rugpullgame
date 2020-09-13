@@ -152,7 +152,7 @@ class App extends Component {
                                                 <div className="media-content has-text-centered">
                                                     <UnlockMetamask message="Unlock Your Metamask/Mist Wallet" />
                                                     <Description />
-                                                        <a className="button is-info" onClick={this.unlockAccount}>Unlock Account</a>
+                                                    <a href="/" className="button is-info" onClick={this.unlockAccount}>Unlock Account</a>
                                                 </div>
                                             </div>
                                         </div>

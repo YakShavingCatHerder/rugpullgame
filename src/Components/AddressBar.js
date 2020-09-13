@@ -13,7 +13,7 @@ class addressBar extends Component {
                 Total Supply:<br />
                     {this.props.totalsupply}
                 </p>
-                <a className="button is-success" onClick={this.props.playrpg}>PLAY (1 RPG Burn)</a>
+                <a href="/" className="button is-success" onClick={this.props.playrpg}>PLAY (1 RPG Burn)</a>
 
             <div className="panel-heading has-text-centered is-clipped is-size-6 code">
                     CODE:<br />

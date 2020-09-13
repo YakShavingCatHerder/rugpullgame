@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import AddressBar from './AddressBar';
-
 
 class Description extends Component {
 
